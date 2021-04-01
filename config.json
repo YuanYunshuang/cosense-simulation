@@ -1,5 +1,5 @@
 {
-  "root_path": "/media/hdd/yuan/koko/data/simulation",
+  "root_path": "/path/to/save/simulation/data",
   "sumocfg": "traffic_flow/town5/Town05.sumocfg",
   "junction_info": "traffic_flow/town5/junction_coordinates.json",
   "id": 1,
