@@ -1,0 +1,36 @@
+<?xml version="1.0" ?>
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+  <route id="421_-2_-3" color="yellow" edges="-2.0.00 -3.0.00"/>
+  <route id="421_-2_-44" color="yellow" edges="-2.0.00 -44.0.00"/>
+  <route id="421_-2_43" color="yellow" edges="-2.0.00 43.0.00"/>
+  <route id="421_-43_-3" color="yellow" edges="-43.0.00 -3.0.00"/>
+  <route id="421_-43_-44" color="yellow" edges="-43.0.00 -44.0.00"/>
+  <route id="421_-43_2" color="yellow" edges="-43.0.00 2.0.00"/>
+  <route id="421_3_-44" color="yellow" edges="3.0.00 -44.0.00"/>
+  <route id="421_3_2" color="yellow" edges="3.0.00 2.0.00"/>
+  <route id="421_3_43" color="yellow" edges="3.0.00 43.0.00"/>
+  <route id="421_44_-3" color="yellow" edges="44.0.00 -3.0.00"/>
+  <route id="421_44_2" color="yellow" edges="44.0.00 2.0.00"/>
+  <route id="421_44_43" color="yellow" edges="44.0.00 43.0.00"/>
+  <vehicle id="0" type="vehicle.tesla.cybertruck" depart="0.00" route="421_-2_-44"/>
+  <vehicle id="1" type="vehicle.seat.leon" depart="0.00" route="421_-2_-44"/>
+  <vehicle id="2" type="vehicle.volkswagen.t2" depart="0.00" route="421_-43_-44"/>
+  <vehicle id="3" type="vehicle.volkswagen.t2" depart="0.00" route="421_3_2"/>
+  <vehicle id="4" type="vehicle.bmw.grandtourer" depart="0.00" route="421_3_2"/>
+  <vehicle id="5" type="vehicle.mercedes-benz.coupe" depart="0.00" route="421_3_43"/>
+  <vehicle id="6" type="vehicle.tesla.model3" depart="0.00" route="421_44_43"/>
+  <vehicle id="7" type="vehicle.toyota.prius" depart="0.00" route="421_3_-44"/>
+  <vehicle id="8" type="vehicle.mini.cooperst" depart="0.00" route="421_44_43"/>
+  <vehicle id="9" type="vehicle.bmw.isetta" depart="0.00" route="421_44_2"/>
+  <vehicle id="10" type="vehicle.gazelle.omafiets" depart="0.00" route="421_-43_2"/>
+  <vehicle id="11" type="vehicle.mini.cooperst" depart="0.00" route="421_44_-3"/>
+  <vehicle id="12" type="vehicle.seat.leon" depart="0.00" route="421_-2_43"/>
+  <vehicle id="13" type="vehicle.carlamotors.carlacola" depart="0.00" route="421_-2_43"/>
+  <vehicle id="14" type="vehicle.nissan.micra" depart="0.00" route="421_3_43"/>
+  <vehicle id="15" type="vehicle.toyota.prius" depart="0.00" route="421_-43_-3"/>
+  <vehicle id="16" type="vehicle.dodge_charger.police" depart="0.00" route="421_-2_-44"/>
+  <vehicle id="17" type="vehicle.seat.leon" depart="0.00" route="421_44_43"/>
+  <vehicle id="18" type="vehicle.bh.crossbike" depart="0.00" route="421_44_2"/>
+  <vehicle id="19" type="vehicle.gazelle.omafiets" depart="0.00" route="421_44_43"/>
+  <vehicle id="20" type="vehicle.mustang.mustang" depart="0.00" route="421_-2_-3"/>
+</routes>

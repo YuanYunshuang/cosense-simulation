@@ -1,0 +1,51 @@
+{
+  "root_path": "/media/hdd/yuan/koko/data/simulation",
+  "sumocfg": "traffic_flow/town5/Town05.sumocfg",
+  "junction_info": "traffic_flow/town5/junction_coordinates.json",
+  "id": 1,
+  "communication_range": 50,
+  "sensor_names": ["lidar_sem"],
+  "cameras": [
+    {
+      "type": "rgb",
+      "file_path": "rgb",
+      "annotations": true,  
+      "transform": [0.5, 0, 0.2, 0, -8.0, 0.0],
+      "comment": "x, y, z in transform are the offset to the top center of the vehicle",
+      "attachment": "rigid",
+      "bloom_intensity": 0.675,
+      "fov": 90.0,
+      "fstop": 8.0,
+      "image_size_x": 800,
+      "image_size_y": 600,
+      "iso": 200.0,
+      "gamma": 2.2,
+      "lens_flare_intensity": 0.1,
+      "sensor_tick": 0.1,
+      "shutter_speed": 200.0,
+      "lens_distortion": [5.0, 0.0, -1.0, 0.0, 0.08, 0.08]
+    }
+  ],
+  "lidars": [
+        {
+            "type": "ray_cast",
+            "file_path": "point_clouds",
+            "annotations": true,
+            "transform": [0.0, 0.0, 0.3, 0, 0, 0],
+            "comment": "x, y, z in transform are the offset to the top center of the vehicle",
+            "attachment": "rigid",
+            "channels": 32,
+            "range": 72.0,
+            "points_per_second": 200000,
+            "rotation_frequency": 10.0,
+            "upper_fov": 5.0,
+            "lower_fov": -15.0,
+            "atmosphere_attenuation_rate": 0.004,
+            "dropoff_general_rate": 0.45,
+            "dropoff_intensity_limit": 0.8,
+            "dropoff_zero_intensity": 0.4,
+            "sensor_tick": 0.1,
+            "noise_stddev": 0.03
+        }
+    ]
+}

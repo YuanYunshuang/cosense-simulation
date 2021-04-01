@@ -1,0 +1,6 @@
+*__pycache__*
+.idea/
+.venv/
+source/
+src/
+traffic_flow/town5/*/*
